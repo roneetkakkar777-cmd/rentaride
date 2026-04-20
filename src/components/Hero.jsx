@@ -10,7 +10,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="relative pt-24 pb-16 lg:pt-36 lg:pb-24 overflow-hidden bg-white">
+    <div className="relative pt-32 pb-16 lg:pt-36 lg:pb-24 overflow-hidden bg-white">
       {/* Premium Background Decor */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-orange-50/50 to-transparent -z-10" />
       <div className="absolute top-20 right-20 w-[600px] h-[600px] bg-orange-100/30 rounded-full blur-[120px] -z-10 animate-pulse" />

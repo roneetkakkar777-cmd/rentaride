@@ -46,7 +46,7 @@ const Booking = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
-      className="pt-24 pb-20 bg-gray-50 min-h-screen"
+      className="pt-32 pb-20 bg-gray-50 min-h-screen"
     >
       <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 mt-8">
         

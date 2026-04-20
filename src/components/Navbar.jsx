@@ -32,7 +32,7 @@ const Navbar = () => {
   return (
     <nav 
       className={`fixed w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white/90 backdrop-blur-md soft-shadow py-3' : 'bg-white py-5'
+        scrolled ? 'bg-white/90 backdrop-blur-md soft-shadow py-2' : 'bg-white py-2.5'
       }`}
     >
       <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
@@ -42,7 +42,7 @@ const Navbar = () => {
             <img 
               src="/logo.png" 
               alt="Rent a Ride Logo" 
-              className="w-24 h-24 object-contain group-hover:scale-110 transition-transform duration-300" 
+              className="w-20 h-20 object-contain group-hover:scale-110 transition-transform duration-300" 
             />
           </Link>
 
