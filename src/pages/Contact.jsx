@@ -13,7 +13,7 @@ const Contact = () => {
     const data = Object.fromEntries(formData);
     
     // Add Web3Forms access key (placeholder)
-    data.access_key = "YOUR_ACCESS_KEY_HERE";
+    data.access_key = "6c9cfb47-8021-485a-b409-68cdc001034b";
     data.subject = "New Contact Message - Rent a Ride";
 
     try {
