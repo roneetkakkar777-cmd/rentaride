@@ -16,10 +16,11 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Close mobile menu on route change
-  useEffect(() => {
+  const [prevPath, setPrevPath] = useState(location.pathname);
+  if (prevPath !== location.pathname) {
+    setPrevPath(location.pathname);
     setIsOpen(false);
-  }, [location.pathname]);
+  }
 
   const navLinks = [
     { name: 'Home', path: '/' },

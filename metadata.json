@@ -1,0 +1,7 @@
+{
+  "name": "Rent a Ride Car Rental",
+  "description": "Find and rent the best cars at affordable prices. Your perfect ride, just one click away!",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
